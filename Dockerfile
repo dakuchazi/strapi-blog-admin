@@ -1,5 +1,8 @@
 FROM node:18-alpine
 
+# 设置 npm 镜像源
+RUN npm config set registry https://registry.npmmirror.com
+
 # 安装必要的系统依赖
 RUN apk update && \
     apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev python3

@@ -15,3 +15,7 @@ services:
       - ./package-lock.json:/opt/package-lock.json
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
+    deploy:
+      resources:
+        limits:
+          memory: 512M
