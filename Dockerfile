@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-# 设置 npm 镜像源
+# 设置npm镜像源 
 RUN npm config set registry https://registry.npmmirror.com
 
 # 安装必要的系统依赖
