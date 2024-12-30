@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-12-29T18:20:15.742Z"
+    "x-generation-date": "2024-12-30T05:10:34.104Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -3683,15 +3683,6 @@
                       "$ref": "#/components/schemas/SharedSliderComponent"
                     }
                   ]
-                },
-                "discriminator": {
-                  "propertyName": "__component",
-                  "mapping": {
-                    "shared.media": "#/components/schemas/SharedMediaComponent",
-                    "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                    "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                    "shared.slider": "#/components/schemas/SharedSliderComponent"
-                  }
                 }
               },
               "locale": {
@@ -3779,15 +3770,6 @@
                   "$ref": "#/components/schemas/SharedSliderComponent"
                 }
               ]
-            },
-            "discriminator": {
-              "propertyName": "__component",
-              "mapping": {
-                "shared.media": "#/components/schemas/SharedMediaComponent",
-                "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                "shared.slider": "#/components/schemas/SharedSliderComponent"
-              }
             }
           },
           "createdAt": {
@@ -3858,15 +3840,6 @@
                         "$ref": "#/components/schemas/SharedSliderComponent"
                       }
                     ]
-                  },
-                  "discriminator": {
-                    "propertyName": "__component",
-                    "mapping": {
-                      "shared.media": "#/components/schemas/SharedMediaComponent",
-                      "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                      "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                      "shared.slider": "#/components/schemas/SharedSliderComponent"
-                    }
                   }
                 },
                 "createdAt": {
@@ -3943,10 +3916,7 @@
             "type": "number"
           },
           "__component": {
-            "type": "string",
-            "enum": [
-              "shared.media"
-            ]
+            "type": "string"
           },
           "file": {
             "type": "object",
@@ -4086,10 +4056,7 @@
             "type": "number"
           },
           "__component": {
-            "type": "string",
-            "enum": [
-              "shared.quote"
-            ]
+            "type": "string"
           },
           "title": {
             "type": "string"
@@ -4106,10 +4073,7 @@
             "type": "number"
           },
           "__component": {
-            "type": "string",
-            "enum": [
-              "shared.rich-text"
-            ]
+            "type": "string"
           },
           "body": {
             "type": "string"
@@ -4123,10 +4087,7 @@
             "type": "number"
           },
           "__component": {
-            "type": "string",
-            "enum": [
-              "shared.slider"
-            ]
+            "type": "string"
           },
           "files": {
             "type": "array",
@@ -4330,15 +4291,6 @@
                       "$ref": "#/components/schemas/SharedSliderComponent"
                     }
                   ]
-                },
-                "discriminator": {
-                  "propertyName": "__component",
-                  "mapping": {
-                    "shared.media": "#/components/schemas/SharedMediaComponent",
-                    "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                    "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                    "shared.slider": "#/components/schemas/SharedSliderComponent"
-                  }
                 }
               },
               "locale": {
@@ -5419,15 +5371,6 @@
                             "$ref": "#/components/schemas/SharedSliderComponent"
                           }
                         ]
-                      },
-                      "discriminator": {
-                        "propertyName": "__component",
-                        "mapping": {
-                          "shared.media": "#/components/schemas/SharedMediaComponent",
-                          "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                          "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                          "shared.slider": "#/components/schemas/SharedSliderComponent"
-                        }
                       }
                     },
                     "createdAt": {
@@ -5565,15 +5508,6 @@
                   "$ref": "#/components/schemas/SharedSliderComponent"
                 }
               ]
-            },
-            "discriminator": {
-              "propertyName": "__component",
-              "mapping": {
-                "shared.media": "#/components/schemas/SharedMediaComponent",
-                "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                "shared.slider": "#/components/schemas/SharedSliderComponent"
-              }
             }
           },
           "createdAt": {
@@ -6811,15 +6745,6 @@
                         "$ref": "#/components/schemas/SharedSliderComponent"
                       }
                     ]
-                  },
-                  "discriminator": {
-                    "propertyName": "__component",
-                    "mapping": {
-                      "shared.media": "#/components/schemas/SharedMediaComponent",
-                      "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                      "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                      "shared.slider": "#/components/schemas/SharedSliderComponent"
-                    }
                   }
                 },
                 "createdAt": {
@@ -7974,15 +7899,6 @@
                         "$ref": "#/components/schemas/SharedSliderComponent"
                       }
                     ]
-                  },
-                  "discriminator": {
-                    "propertyName": "__component",
-                    "mapping": {
-                      "shared.media": "#/components/schemas/SharedMediaComponent",
-                      "shared.quote": "#/components/schemas/SharedQuoteComponent",
-                      "shared.rich-text": "#/components/schemas/SharedRichTextComponent",
-                      "shared.slider": "#/components/schemas/SharedSliderComponent"
-                    }
                   }
                 },
                 "createdAt": {
