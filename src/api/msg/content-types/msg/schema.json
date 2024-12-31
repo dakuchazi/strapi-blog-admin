@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "msgs",
+  "info": {
+    "singularName": "msg",
+    "pluralName": "msgs",
+    "displayName": "Msg",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nickname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "parent": {
+      "type": "string"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.rich-text"
+      ]
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "QQNumber": {
+      "type": "string"
+    }
+  }
+}

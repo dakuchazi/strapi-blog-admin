@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "status_updates",
+  "info": {
+    "singularName": "status-update",
+    "pluralName": "status-updates",
+    "displayName": "StatusUpdate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
