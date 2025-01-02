@@ -1,12 +1,11 @@
 # My Blog CMS
 
+基于 Strapi 搭建的博客内容管理系统。
+
 ## 博客前台
 
 https://github.com/dakuchazi/nextjs-blog
 
-
-
-基于 Strapi 搭建的博客内容管理系统。
 
 ## 功能特性
 
